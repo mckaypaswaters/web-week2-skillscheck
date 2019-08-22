@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.gray-bar {
+    height: 8vh;
+    width: 100%;
+    background: gray;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.company-text {
+    margin-left: 20px;
+    color: white;
+    font-weight: 100;
+}
+.navbar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+}
+.navbar-text {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    margin-right: -300px;
+}
+h5 {
+    font-size: .6rem;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.black-box {
+    height: 42vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-box-text {
+    color: yellow;
+}
+.teal-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box1 {
+    height: 110px;
+    width: 110px;
+    background: aquamarine;
+    border-radius: 10%;
+}
+.box2 {
+    height: 110px;
+    width: 110px;
+    background: aquamarine;
+    border-radius: 10%;
+}
+.box3 {
+    height: 110px;
+    width: 110px;
+    background: aquamarine;
+    border-radius: 10%;
+}
+.orange-rectangles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.rectangle1 {
+    height: 110px;
+    width: 240px;
+    background: rgb(245, 201, 119);
+    margin-left: 32px;
+}
+.rectangle2 {
+    height: 110px;
+    width: 240px;
+    background: rgb(245, 201, 119);
+    margin-right: 32px;
+}
+.textBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+.text {
+    font-size: .55rem;
+    margin-left: 75px;
+    font-weight: 100;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px
+}
+.parentElephant {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.elephantImg {
+    height: 15vh;
+    position: absolute;
+    margin-right: -200px;
+    margin-bottom: 20px;
+}
+.purple-box {
+    height: 13vh;
+    background: rgb(51, 48, 70);
+}
