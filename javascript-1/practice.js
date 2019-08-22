@@ -168,7 +168,10 @@ let total = myNumbers.reduce(function(acc, el, i, arr){
 // Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
 // Code Here
-
+let myNumbersIndex = []
+myNumbers.forEach(function(element, index, array){
+	return myNumbersIndex.push(index)
+})
 
 //////////////////PROBLEM 18////////////////////
 
@@ -196,9 +199,9 @@ const people = [
 ]
 
 // Code Here
-let enemies = people.filter(function(el, i, arr){
+let enemies = people.filter(function(el, i){
 	if (el.friend === false){
-		return people.push(el.friend)
+		return true;
 	}
 })
 
@@ -207,7 +210,7 @@ let enemies = people.filter(function(el, i, arr){
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
-let totallyAwesome = people.reduce(function(acc, el,i,arr){
+let totallyAwesome = people.reduce(function(acc, el){
 	return acc + el.awesomeLevel
 }, 0)
 console.log(totallyAwesome)
